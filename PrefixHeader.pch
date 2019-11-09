@@ -1,0 +1,71 @@
+//
+//  PrefixHeader.pch
+//  iBlah-Blah
+//
+//  Created by webHex on 19/03/18.
+//  Copyright © 2018 webHax. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+#define SCREEN_SIZE [[UIScreen mainScreen] bounds].size
+#import "UIColor+Hexadecimal.h"
+#import "NSDictionary+NotNull.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "FBCollectionViewUtilityManager.h"
+#import "FTToastIndicator.h"
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+
+#import "Base64.h"
+#import "AFNetworking.h"
+#import "AlertView.h"
+#import "ApiClient.h"
+#import "IndecatorView.h"
+#import "AsyncImageView.h"
+#import "DGActivityIndicatorView.h"
+#import "JTSImageViewController.h"
+#import "JTSImageInfo.h"
+#import "JASidePanelController.h"
+#import "UIViewController+JASidePanel.h"
+#import "AppDelegate.h"
+#import "BFRImageViewController.h"
+#import "HCSStarRatingView.h"
+#import "MTDURLPreview.h"
+#import "UIButton+Badge.h"
+#import "UIBarButtonItem+Badge.h"
+#import <FirebaseAuth/FirebaseAuth.h>
+
+#import "BaseViewController.h"
+
+#import "MYTapGestureRecognizer.h"
+
+#import <Availability.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+
+#import <Quickblox/Quickblox.h>
+#import <QuickbloxWebRTC/QuickbloxWebRTC.h>
+
+#import "SVProgressHUD.h"
+#import "SupportClass.h"
+
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
+
+#define BASEURl "http://iblah-blah.com/iblah/"
+#define LOGIN                BASEURl "userapi.php?"
+#define SIGNUP               BASEURl "userapi.php?"
+#define FORGOTPASS           BASEURl "userapi.php?"
+#define CHANGEPASS           BASEURl "changePassword"
+#define FEEDS                BASEURl "postapi.php?"
+#define ADDPOST              BASEURl "postapi.php?"
+#define ADDGROUP             BASEURl "groupsapi.php"
+
+//
+
+//BaseUrl + postapi.php?
+//action = showAllNotification
